@@ -24,9 +24,14 @@ def afficher(ch):
     print("\n--- LISTE DES TACHES ---")
     print(ch)
 
-# rchercher si une tache exciste ou nn
+# rechercher une tache 
 def rechercher(ch):
-    pass
+    note = int(input("donner le N ° de la note "))
+    list = ch.split("\n")
+    if 0 <= note < len(list) and list[note - 1] != "":
+        print(f"la Note N ° {note} existe")
+    else:
+        print(f"la Note N ° {note} n'existe pas")
 # GESTION DES TACHES ET DES COMMANDES
 def service(ch):
     while True :
