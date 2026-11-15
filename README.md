@@ -1,5 +1,5 @@
 ## le titre du projet
-- Gestion des notes
+- Application de gestion des taches quotidiennes
 
 ## Description
 Application Python simple permettant de gérer les tâches quotidiennes.
